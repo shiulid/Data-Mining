@@ -1,0 +1,27 @@
+Instructions:
+
+The datasets and the python files should be in the same directory
+
+Python files:
+
+1. exploreIncomeDataset.py
+
+python exploreIncomeDataset.py
+
+2. project1.py
+
+python project1.py Iris.csv euclidean
+python project1.py Iris.csv manhattan
+python project1.py income_tr.csv gower
+python project1.py income_tr.csv binarizedManhattan
+
+[ Ouput dataframes will be of the form - <dataset>_<metric>_out.csv ]
+
+3. analyzeOutputs.py
+
+python analyzeOutputs.py Iris.csv iris_euclidean_out.csv 
+python analyzeOutputs.py Iris.csv iris_manhattan_out.csv 
+python analyzeOutputs.py income_tr.csv income_gower_out.csv 
+python analyzeOutputs.py income_tr.csv income_binarizedManhattan_out.csv
+
+
