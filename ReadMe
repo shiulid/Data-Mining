@@ -1,5 +1,6 @@
 Instructions:
 
+A. Project1
 The datasets and the python files should be in the same directory
 
 Python files:
@@ -24,4 +25,24 @@ python analyzeOutputs.py Iris.csv iris_manhattan_out.csv
 python analyzeOutputs.py income_tr.csv income_gower_out.csv 
 python analyzeOutputs.py income_tr.csv income_binarizedManhattan_out.csv
 
+B. Project2
+
+The datasets and the python files should be in the same directory
+
+Python files:
+
+1. project2.py
+
+python project2.py Iris_Test.csv euclidean
+python project2.py Iris_Test.csv manhattan
+python project2.py income_te.csv gower
+python project2.py income_te.csv binarizedManhattan
+
+Running classifier on training data itself-
+python project2.py Iris.csv euclidean
+python project2.py Iris.csv manhattan
+python project2.py income_tr.csv gower
+python project2.py income_tr.csv binarizedManhattan
+
+[ Ouput dataframes will be of the form - <dataset>_knn_<metricType>_out_<weights:uniform/distance>.csv ]
 
