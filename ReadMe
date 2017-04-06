@@ -46,3 +46,15 @@ python project2.py income_tr.csv binarizedManhattan
 
 [ Ouput dataframes will be of the form - <dataset>_knn_<metricType>_out_<weights:uniform/distance>.csv ]
 
+C. Project5
+
+Keep all datasets and code in the same directory.
+
+python project5.py <datasetName:easy|hard|wine>
+
+	python project5.py easy		[TwoDimEasy.csv]
+	python project5.py hard 	[TwoDimHard.csv]
+	python project5.py wine		[wine.csv]
+
+An output dataframe output_<filename>.csv is generated with ID, actual cluster/class , predicted cluster number
+
